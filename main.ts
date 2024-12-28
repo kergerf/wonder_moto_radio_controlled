@@ -15,7 +15,7 @@ basic.forever(function () {
     if (direction_moteur == 1) {
         wuKong.setAllMotor(Vitesse, Vitesse)
     }
-    if (direction_moteur == 1) {
+    if (direction_moteur == 2) {
         wuKong.setAllMotor(0 - Vitesse, 0 - Vitesse)
     }
 })
